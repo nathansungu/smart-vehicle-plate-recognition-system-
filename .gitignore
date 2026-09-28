@@ -1,0 +1,15 @@
+.env
+# Test results
+tests/results/
+tests/reference/
+
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.env
+.git/
+.pytest_cache/
+
+!.env.example
