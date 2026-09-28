@@ -1,15 +1,43 @@
-.env
-# Test results
-tests/results/
-tests/reference/
+# Git
+.git/
 
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
 .venv/
 venv/
 env/
-__pycache__/
-*.pyc
-.env
-.git/
-.pytest_cache/
+ai-env/
 
+# Environment variables
+.env
+.env.*
 !.env.example
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+tests/results/
+tests/reference/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Runtime/generated storage
+storage/input/*
+storage/output/*
+storage/failed/*
+
+# Temporary image files
+*.jpeg
+*.jpg
+*.png
