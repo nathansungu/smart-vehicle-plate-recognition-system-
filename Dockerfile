@@ -25,6 +25,7 @@ RUN pip install --no-cache-dir --upgrade pip \
 # Copy application
 COPY app ./app
 COPY scripts ./scripts
+COPY models ./models
 COPY run.py .
 
 # API port
